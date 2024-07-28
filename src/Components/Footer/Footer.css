@@ -1,0 +1,13 @@
+.footer{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background: linear-gradient(267deg, #4854ff 6.36%, #d83e3e 102.06%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent
+    
+    
+}

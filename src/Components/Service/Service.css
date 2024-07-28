@@ -1,0 +1,98 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 100px;
+}
+.services-title h1{
+    padding: 0 30px;
+    font-size: 70px;
+    font-weight: 600;
+    background: linear-gradient(267deg, #4854ff 6.36%, #d83e3e 102.06%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.service-format{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 20px;
+ padding: 60px;
+ border-radius: 10px;
+ border: 2px solid white;
+ transition: 0.4s;
+ cursor: pointer;
+}
+.service-format h2{
+   font-size: 28px;
+   font-weight: 600;
+}
+.service-format h1{
+    font-size: 22px;
+    font-weight: 600;
+    background: linear-gradient(267deg, #4854ff 6.36%, #d83e3e 102.06%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.service-format p{
+    color: #d4d4d4;
+    font-size:20px ;
+    line-height: 30px;
+    max-width: 300px;
+}
+.service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.service-container :hover{
+    
+    background: rgba(85, 1, 83, 0.383);
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+@media(max-width:700px){
+    .services{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .services-title h1{
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .service-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .service-format h2{
+        font-size: 18px;
+        font-weight: 600;
+     }
+     .service-format h1{
+         font-size: 18px;
+         font-weight: 600;
+         background: linear-gradient(267deg, #4854ff 6.36%, #d83e3e 102.06%);
+         background-clip:text;
+         -webkit-background-clip:text;
+         -webkit-text-fill-color:transparent;
+     }
+     .service-format p{
+         color: #d4d4d4;
+         font-size:13px ;
+         line-height: 25px;
+         max-width: 300px;
+     }
+     .service-container{
+        grid-template-columns:  1fr;
+        gap: 30px;
+     }
+}
+
